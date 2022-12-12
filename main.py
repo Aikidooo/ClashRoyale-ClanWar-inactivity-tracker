@@ -75,13 +75,14 @@ with open("token.txt") as token:
     WAR_BACKVIEW = int(input("War Backview: "))
     CLANTAG = "%23YGY8G8VC" #don't paste '#' sign, instead use '%23'
     CLANNAME = "Honor"
+    LIMIT = 5
 
     my_token = token.read().rstrip("\n")
 
     #base_url = "https://proxy.royaleapi.dev/v1"
     base_url = "https://api.clashroyale.com/v1"
 
-    appending_warlog = "/clans/" + CLANTAG + "/riverracelog?limit=5"
+    appending_warlog = "/clans/" + CLANTAG + "/riverracelog?limit=" + str(LIMIT)
     appending_clanmembers = "/clans/" + CLANTAG + "/members"
 
     #prepare request the data from url
