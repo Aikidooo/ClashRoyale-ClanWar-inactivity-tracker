@@ -1,7 +1,7 @@
 import urllib.request
 import json
 
-WAR_BACKVIEW = int(input("War Backview: "))
+
 CLANTAG = "" #don't paste '#' sign, instead use '%23', for example %23YGY8G8VC
 CLANNAME = ""
 LIMIT = 5
@@ -78,7 +78,7 @@ def get_inactive_members_since(my_clan, since_wars: int, currentmembers):
 
 
 with open("token.txt") as token:
-    
+    WAR_BACKVIEW = int(input("War Backview: "))
 
     my_token = token.read().rstrip("\n")
 
