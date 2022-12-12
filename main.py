@@ -1,6 +1,12 @@
 import urllib.request
 import json
 
+WAR_BACKVIEW = int(input("War Backview: "))
+CLANTAG = "" #don't paste '#' sign, instead use '%23', for example %23YGY8G8VC
+CLANNAME = ""
+LIMIT = 5
+TOLERATION = 400
+
 def get_my_clan_only(raw, clanname):
     my_clan = []
 
@@ -29,7 +35,7 @@ def get_inactive_members_since(my_clan, since_wars: int, currentmembers):
         #loop through participants
         for i in range(len(war["clan"]["participants"])):
             #extract inactive members
-            if war["clan"]["participants"][i]["fame"] <= 400 and war["clan"]["participants"][i]["repairPoints"] <= 300:
+            if war["clan"]["participants"][i]["fame"] <= TOLERATION and war["clan"]["participants"][i]["repairPoints"] <= TOLERATION:
                 player = {"name":war["clan"]["participants"][i]["name"], 
                         "fame": war["clan"]["participants"][i]["fame"], 
                         "repairPoints": war["clan"]["participants"][i]["repairPoints"]}
@@ -72,10 +78,7 @@ def get_inactive_members_since(my_clan, since_wars: int, currentmembers):
 
 
 with open("token.txt") as token:
-    WAR_BACKVIEW = int(input("War Backview: "))
-    CLANTAG = "" #don't paste '#' sign, instead use '%23', for example %23YGY8G8VC
-    CLANNAME = ""
-    LIMIT = 5
+    
 
     my_token = token.read().rstrip("\n")
 
