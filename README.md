@@ -16,8 +16,8 @@ Click `Create new Key` and enter a name and a description. Then click `Add IP Ad
 Click `Create Key` and then click on your new Key in the now appearing overview, where you need to copy the full token. 
 Clone the repository and paste the token into `token.txt`. Do not share this token.
 
-Now open main.py in your favorite editor and locate a bunch of constant variables in caps. 
-There you have to paste your clan's tag and the name of it which you can find at [royaleAPI](https://royaleapi.com/clans) via the search function or directly from your phone when you look at the clan overview.
+Now open main.py in your favorite editor and locate a bunch of constant variables in caps on the top of the script. 
+There you'll have to paste your clan's tag and the name of it which you can find at [royaleAPI](https://royaleapi.com/clans) via the search function or directly from your phone when you look at the clan overview.
 
 You can optionally modify the `LIMIT` variable which represents the maximum amount of Wars that will be downloaded, and the `TOLERATION` variable which represents what minimum of points a clan member should have to not appear in the list of inactive people.
 
