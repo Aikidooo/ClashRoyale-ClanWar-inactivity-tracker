@@ -2,7 +2,7 @@
 
 This is a simple Python script which will give you the members of your ClashRoyale clan that have been inactive in ClanWar for a given amount of Wars.
 
-It uses the ClashRoyale API and has some pre-settings made that you will have to change before the script adapts to you.
+It uses the ClashRoyale API and has some pre-settings made that you will have to change before the script adapts to you and your clan.
 
 ## Usage
 
