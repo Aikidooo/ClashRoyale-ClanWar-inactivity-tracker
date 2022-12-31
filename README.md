@@ -6,7 +6,7 @@ It uses the ClashRoyale API and has some pre-settings made that you will have to
 
 ## Usage
 
-First you will need to sign up for the [ClashRoyale API](https://developer.clashroyale.com/#/register). It is free and needed to get access to it from your current IP-Adress.
+First you will need to sign up for the [ClashRoyale API](https://developer.clashroyale.com/#/register). It is free and required to get access to it from your current IP-Adress.
 
 After you created an account, sign in and go to 'My account', which is found in the dropdown menu under your Name.
 
