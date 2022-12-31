@@ -8,7 +8,7 @@ It uses the ClashRoyale API and has some pre-settings made that you will have to
 
 First you will need to sign up for the [ClashRoyale API](https://developer.clashroyale.com/#/register). It is free and needed to get access to it from your current IP-Adress.
 
-After you created an account, sign in and go to My account, which is found in the dropdown menu under your Name.
+After you created an account, sign in and go to 'My account', which is found in the dropdown menu under your Name.
 
 
 Click `Create new Key` and enter a name and a description. Then click `Add IP Adress` and enter your devices IP, which you can find easily when you search for something like `How to find my IP?` in google.
