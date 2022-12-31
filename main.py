@@ -2,8 +2,8 @@ import urllib.request
 import json
 
 
-CLANTAG = "" #don't paste '#' sign, instead use '%23', for example %23YGY8G8VC
-CLANNAME = ""
+CLANTAG = "" #don't paste '#' sign, instead use '%23', for example "%23YGY8G8VC"
+CLANNAME = "" #For example "MyWonderfulClan"
 LIMIT = 5
 TOLERATION = 400
 
