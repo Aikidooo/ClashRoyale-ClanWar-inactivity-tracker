@@ -11,7 +11,7 @@ First you will need to sign up for the [ClashRoyale API](https://developer.clash
 After you created an account, sign in and go to 'My account', which is found in the dropdown menu under your Name.
 
 
-Click `Create new Key` and enter a name and a description. Then click `Add IP Adress` and enter your devices IP, which you can easily find [here](https://whatismyipaddress.com), [here](https://www.whatismyip.com), via [google](https://www.google.com/search?q=what+is+my+ip) or any other way you like.
+Click `Create new Key` and enter a name and a description. Then click `Add IP Adress` and enter your devices IP, which you can easily find [here](https://whatismyipaddress.com), [here](https://www.whatismyip.com), via [google](https://www.google.com/search?q=what+is+my+ip) or any other way you'd like.
 
 Click `Create Key` and then click on your new Key in the now appearing overview, where you need to copy the full token. 
 Clone the repository and paste the token into `token.txt`. Do not share this token.
