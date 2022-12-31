@@ -26,4 +26,4 @@ After all these steps you can now run the script and the output will be shown in
 Please note that your IP-Adress can change, which will result in a 403 forbidden error when requesting the API, since it only allows access for the IP you specified when creating your token. If this is the case just follow the steps above again and create a new key with your new IP-Adress. If this is too annoying for you you'll have to set up a static IP or use a proxy. In case you don't know how to do this, remember google is your best friend.
 
 
-###### This is pretty bad code, please don't blame me for it, I am no professional and never really learned Python since I casually code most of my programs in Java. I thought this was a useful tool and as long as it works it should be shared. 
+###### Also note that this is pretty bad code which I cant even read myself anymore, please don't blame me for it, I am no professional and never really learned Python since I usually code most of my programs in Java. I thought this was a useful tool and as long as it works it should be shared. 
